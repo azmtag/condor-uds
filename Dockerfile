@@ -1,5 +1,5 @@
 
-FROM nvidia/cuda:11.3.1-base-ubuntu20.04
+FROM nvidia/cuda:11.8.0-devel-ubuntu20.04
 ARG username
 
 # Remove any third-party apt sources to avoid issues with expiring keys.
